@@ -1,5 +1,7 @@
 # Mask Verification
 
+This is the project named Mask Verification by Team 1 in CS470 class.
+
 ## Introduction
 
 Due to the spread of COVID-19, social distancing has begun around the world, and masks have become mandatory in public places. 
