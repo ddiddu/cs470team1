@@ -12,6 +12,7 @@ In any given situation, if we see a video and find people who have not properly 
 
 To observe the people wearing a mask in the crowd, our AI should do object detection. For the step of our project is (1) human detection, (2) face detection, (4) Clothes Color Extraction. 
 For the step of (3) mask confirmation, we will apply image classification with CNN for 3 classes, no-mask, correct-mask, and incorrect-mask. We tried to produce and experiment with various possible models to select the most suitable and accurate models for our project.
+
 If our model determines that someone did not wear the mask properly in the (3) Mask Verification above, extract the person's color of clothes for a system that alerts the person's features during the "(4) Clothes Color Extraction" step.
 
 <img src="https://drive.google.com/uc?export=view&id=11Tmwxxs2lXcjo4xAIo9wvnpPLXSJd20d" height="300">
@@ -37,8 +38,11 @@ If our model determines that someone did not wear the mask properly in the (3) M
 We attach the dataset link because of the size
 
 > [dataset_new](https://drive.google.com/drive/folders/1AnYcCi4T8itP_FeezB3idte4wExbyfsv?usp=sharing)
+>
 > [dataset_synthetic](https://drive.google.com/drive/folders/1PrsfmC3AmG8uguJ6qNfVfQeaRTQNxSXH?usp=sharing)
+>
 > [demo](https://drive.google.com/drive/folders/1PszHdBOKmlFfmP06AeyT97JBAhTnVpfm?usp=sharing)
+>
 > [output](https://drive.google.com/drive/folders/1ae7mBPWKeLFmBNWJ-0zfpKu2PdiG9TdB?usp=sharing)
 
 ## Result
@@ -47,7 +51,7 @@ We attach the dataset link because of the size
 
 We want to mark the face in our model application image. Correct results were obtained from facial area extraction to mask area extraction.
 
-<img src="https://drive.google.com/uc?export=view&id=1XHjKrnt2ngbORXSFp99b_Cb4__fyG4QT" height="300">
+<img src="https://drive.google.com/uc?export=view&id=1XHjKrnt2ngbORXSFp99b_Cb4__fyG4QT" height="200">
 
 ### Two CNN Model(Mask Verification)(Class 2*2)
 
@@ -57,9 +61,7 @@ Classifying incorrect mask and without mask CNN model loss was 0.104  and accura
 
 When tested with our new datasets, it successfully classified with correct mask, incorrect mask and without mask.
 
-<img src="https://drive.google.com/uc?export=view&id=1GNghsfmsDIpFYKL5Noi9548S33xdUIlu" height="250">
-<img src="https://drive.google.com/uc?export=view&id=1GQrK8Mran1_DotuF_dVadbqOKlRv5Y7W" height="250">
-<img src="https://drive.google.com/uc?export=view&id=1GWfoCOKp4c4AW-nCyP3PW5bOeRWot9nL" height="250">
+<img src="https://drive.google.com/uc?export=view&id=1GNghsfmsDIpFYKL5Noi9548S33xdUIlu" height="250"> <img src="https://drive.google.com/uc?export=view&id=1GQrK8Mran1_DotuF_dVadbqOKlRv5Y7W" height="250"> <img src="https://drive.google.com/uc?export=view&id=1GWfoCOKp4c4AW-nCyP3PW5bOeRWot9nL" height="250">
 
 ### Extracting Color of Clothes
 
