@@ -53,6 +53,7 @@ We want to mark the face in our model application image. Correct results were ob
 
 <img src="https://drive.google.com/uc?export=view&id=1XHjKrnt2ngbORXSFp99b_Cb4__fyG4QT" height="200">
 
+
 ### Two CNN Model(Mask Verification)(Class 2*2)
 
 Classifying with mask and without mask CNN model loss was 0.040 and accuracy was 0.991. 
@@ -62,6 +63,7 @@ Classifying incorrect mask and without mask CNN model loss was 0.104  and accura
 When tested with our new datasets, it successfully classified with correct mask, incorrect mask and without mask.
 
 <img src="https://drive.google.com/uc?export=view&id=1GNghsfmsDIpFYKL5Noi9548S33xdUIlu" height="250"> <img src="https://drive.google.com/uc?export=view&id=1GQrK8Mran1_DotuF_dVadbqOKlRv5Y7W" height="250"> <img src="https://drive.google.com/uc?export=view&id=1GWfoCOKp4c4AW-nCyP3PW5bOeRWot9nL" height="250">
+
 
 ### Extracting Color of Clothes
 
